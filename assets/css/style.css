@@ -1,0 +1,637 @@
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+    text-align: center;
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+#navbarNavDropdown {
+    justify-content: center;
+}
+
+.nav-item:hover {
+    background-color: #6d4613;
+}
+
+#cta {
+    background-color: #6d4613;
+}
+/* Navbar end */
+
+/* Jumbotron */
+#jumbotron {
+    height: auto;
+}
+
+#hero {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background-position: center;
+}
+
+.jumbotron img {
+    width: 550px;
+    height: 440px;
+    margin-bottom: 20px;
+}
+
+h1.display-4 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: white;
+}
+
+h2.lead {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    margin-bottom: 60px;
+}
+
+#jumbotron a.btn {
+    background-color: #6d4613;
+    border-radius: 0%;
+    width: 170px;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #0e0a07;
+    margin-bottom: 40px;
+}
+
+/* Jumbotron end */
+
+/* About us */
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#about h2 {
+    font-family: "UnifrakturMaguntia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #6d4613;
+    margin-bottom: 40px;
+}
+/* About us end */
+
+/* Parallax 2 */
+#parallax2 {
+    height: 540px;
+    background-attachment: fixed;
+}
+/* Parallax 2 */
+
+/* Our Studio */
+
+#studio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#studio h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#studio h2 {
+    font-family: "UnifrakturMaguntia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+
+    color: #6d4613;
+}
+#studio h3 {
+    font-family: "UnifrakturMaguntia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 70px;
+
+    color: #6d4613;
+}
+/* Our Studio end */
+
+/* Gallery */
+#gallery {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#gallery h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#gallery h2 {
+    font-family: "UnifrakturMaguntia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #6d4613;
+}
+#gallery h3 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 60px;
+
+    color: #ffffff;
+}
+
+#gallery .col {
+    padding: 10px;
+}
+#gallery .card {
+    border: 0px;
+    border-radius: 0px;
+}
+
+#gallery img {
+    border-radius: 0px;
+}
+
+#gallery .btn {
+    justify-content: center;
+    text-align: center;
+    background-color: #6d4613;
+    border-radius: 0%;
+    width: 170px;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #0e0a07;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+/* Gallery end */
+
+/* Boking */
+#booking {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#form {
+    width: 50%;
+    color: #ffffff;
+    background-color: #000;
+    padding: 60px;
+}
+
+#booking h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#booking h2 {
+    font-family: "UnifrakturMaguntia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 70px;
+
+    color: #6d4613;
+}
+
+.form-label {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 36px */
+
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    color: #ffffff;
+}
+
+#submit {
+    justify-content: center;
+    text-align: center;
+    background-color: #6d4613;
+    border-radius: 0%;
+    width: 170px;
+
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #0e0a07;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+/* Boking */
+
+/* Contact */
+#sosmed {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#sosmed h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    /* identical to box height, or 72px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+#sosmed h2 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 40px;
+
+    color: #ffffff;
+}
+
+#sosmed a {
+    text-decoration: none;
+    color: #000;
+}
+
+#ikon {
+    place-items: center;
+    display: grid;
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+    width: 200px;
+}
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+}
+.wrapper .button:nth-child(2):hover .icon {
+    background: #59ce72;
+}
+.wrapper .button:nth-child(3):hover .icon {
+    background: #e1306c;
+}
+.wrapper .button:nth-child(4):hover .icon {
+    background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
+}
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i {
+    color: #fff;
+}
+.wrapper .button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span {
+    color: #4267b2;
+}
+.wrapper .button:nth-child(2) span {
+    color: #59ce72;
+}
+.wrapper .button:nth-child(3) span {
+    color: #e1306c;
+}
+.wrapper .button:nth-child(4) span {
+    color: #333;
+}
+.wrapper .button:nth-child(5) span {
+    color: #ff0000;
+}
+
+/* Contact end */
+
+/* Find Us */
+#find {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: auto;
+}
+/* Find Us end */
+
+/* Footer */
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#footer h1 {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #6d4613;
+}
+#footer h2 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    text-align: center;
+    margin-bottom: 20px;
+
+    color: #ffffff;
+}
+
+#footer img {
+    width: 210px;
+    height: 165px;
+}
+
+footer {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px */
+
+    text-align: center;
+    padding: 24px;
+    color: #ffffff;
+}
+/* Footer end */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    /* Navbar */
+    .collapse {
+        background-color: #000;
+    }
+    /* Navbar end */
+
+    /* Jumbotron */
+    .jumbotron {
+        padding: 2rem 1rem;
+        height: auto;
+    }
+    .jumbotron h1,
+    .jumbotron p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    .jumbotron h2 {
+        font-size: 50%;
+        line-height: 1;
+    }
+    .jumbotron img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Jumbotron end */
+
+    /* Booking */
+    #form {
+        padding: 2rem 1rem;
+        height: auto;
+        width: 100%;
+    }
+    #form h1,
+    #form p {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+    #form h2 {
+        font-size: 50%;
+        line-height: 1;
+    }
+    /* Booking end */
+
+    /* Contact */
+    /* Contact end */
+
+    /* Footer */
+    #footer img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Footerend */
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .nav-item {
+        width: 170px;
+    }
+    .navbar-transparent {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-scrolled {
+        background-color: #000 !important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
