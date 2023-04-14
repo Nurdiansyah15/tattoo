@@ -128,9 +128,9 @@ h2.lead {
 }
 
 #about h2 {
-  font-family: "UnifrakturMaguntia";
+  font-family: "Oswald";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 32px;
   line-height: 150%;
   /* identical to box height, or 48px */
@@ -173,18 +173,18 @@ h2.lead {
 }
 
 #studio h2 {
-  font-family: "UnifrakturMaguntia";
+  font-family: "Oswald";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 32px;
   line-height: 150%;
   /* identical to box height, or 48px */
 
   text-align: center;
   letter-spacing: 0.05em;
-  margin-bottom: 40px;
 
   color: #6d4613;
+  margin-bottom: 40px;
 }
 #studio h3 {
   font-family: "UnifrakturMaguntia";
@@ -321,18 +321,18 @@ h2.lead {
 }
 
 #booking h2 {
-  font-family: "UnifrakturMaguntia";
+  font-family: "Oswald";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 32px;
   line-height: 150%;
   /* identical to box height, or 48px */
 
   text-align: center;
   letter-spacing: 0.05em;
-  margin-bottom: 70px;
 
   color: #6d4613;
+  margin-bottom: 40px;
 }
 
 .form-label {
