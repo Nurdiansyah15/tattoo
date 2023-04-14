@@ -24,6 +24,11 @@ var swiper = new Swiper(".mySwiper", {
     },
     // when window width is >= 992 dekstop
     992: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    // when window width is >= 1200 dekstop
+    1200: {
       slidesPerView: 4,
       spaceBetween: 60,
     },

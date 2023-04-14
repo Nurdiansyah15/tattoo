@@ -68,7 +68,16 @@
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .swiper-slide img {
-    width: 300px;
-    height: 400px;
+    width: 320px;
+    height: 440px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .swiper-slide img {
+    width: 360px;
+    height: 480px;
+    padding: 30px;
   }
 }
