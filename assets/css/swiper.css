@@ -15,8 +15,8 @@
 
 .swiper-slide img {
   display: block;
-  width: 400px;
-  height: 450px;
+  width: 300px;
+  height: 430px;
   object-fit: cover;
 }
 
@@ -29,7 +29,8 @@
 }
 .swiper-navBtn::before,
 .swiper-navBtn::after {
-  font-size: 22px;
+  font-size: 30px;
+  font-weight: 900;
 }
 .swiper-button-next {
   color: #6d4613;
