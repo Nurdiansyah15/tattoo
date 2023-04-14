@@ -22,7 +22,7 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 40,
     },
     // when window width is >= 992 dekstop
-    992: {
+    1200: {
       slidesPerView: 4,
       spaceBetween: 20,
     },
