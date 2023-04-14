@@ -18,6 +18,9 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper-style.css" />
     <!-- My Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -115,6 +118,7 @@
       </div>
     </nav>
     <!-- Navbar End -->
+
     <!-- jumbroton -->
     <div
       id="jumbotron"
@@ -141,6 +145,7 @@
       </div>
     </div>
     <!-- jumbroton end -->
+
     <!-- about us -->
     <div class="container-fluid">
       <div class="container" id="about">
@@ -174,6 +179,7 @@
       </div>
     </div>
     <!-- about us end -->
+
     <!-- paralax 2 -->
     <div
       style="
@@ -186,7 +192,8 @@
       <div id="hero"></div>
     </div>
     <!-- paralax 2 end -->
-    {{-- Our Studio --}}
+
+    <!-- our studio -->
     <div class="container-fluid">
       <div class="container" id="studio">
         <h1>our studio</h1>
@@ -240,131 +247,215 @@
         </button>
       </div>
     </div>
-    {{-- Our Studio end --}} 
+    <!-- our studio end -->
 
-    {{-- Our Gallery --}}
+    <!-- Our Gallery -->
     <div class="container-fluid">
       <div class="container" id="gallery">
         <h1>our last work</h1>
         <h3 id="large">large tatto</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g1.png"
-                class="card-img-top"
-                alt="..."
-              />
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g2.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g3.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
         </div>
         <h3 id="small">SMALL TATTO</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g4.png"
-                class="card-img-top"
-                alt="..."
-              />
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g5.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g6.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
         </div>
         <h3 id="handpoke">HANDPOKE TATTO TRADITIONAL</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g7.png"
-                class="card-img-top"
-                alt="..."
-              />
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g8.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g9.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
         </div>
         <h3 id="bodypiercing">bODY PIERCING</h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g10.png"
-                class="card-img-top"
-                alt="..."
-              />
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card swiper-slide">
+                <img
+                  src="./assets/gallery/g2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g11.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img
-                src="./assets/gallery/g12.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </div>
-          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
         </div>
         <div>
           <a href="#" class="btn btn-lg" role="button" aria-pressed="true"
@@ -373,11 +464,12 @@
         </div>
       </div>
     </div>
-    {{-- Our Gallery end --}} 
-    {{-- Review --}} 
-    {{-- Review end --}} 
-    
-    {{-- Book Now --}}
+    <!-- Our Gallery end  -->
+
+    <!-- Review -->
+    <!-- Review end -->
+
+    <!-- Book Now-->
     <div
       style="background-image: url('./assets/paralax/book.png')"
       class="container-fluid"
@@ -413,7 +505,7 @@
               id="message"
               rows="5"
               required
-            ></textarea> 
+            ></textarea>
           </div>
           <div class="mb-3 mx-auto" id="submit">
             <button type="submit" class="btn">SUBMIT</button>
@@ -421,14 +513,16 @@
         </form>
       </div>
     </div>
-    {{-- Book Now --}} {{-- Contact --}}
+    <!-- Book Now --}} -->
+
+    <!-- Contact --}} -->
     <div class="container-fluid" id="contact">
       <div class="container" id="sosmed">
         <h1>contact</h1>
         <h2>For more information or booking, you can contact us here.</h2>
         <div class="container" id="ikon">
           <div class="wrapper">
-            <div class="button">
+            <div class="button-medsos">
               <div class="icon">
                 <i class="fab fa-facebook-f"></i>
               </div>
@@ -436,7 +530,7 @@
                 <span>Facebook</span>
               </a>
             </div>
-            <div class="button">
+            <div class="button-medsos">
               <div class="icon">
                 <i class="fab fa-whatsapp"></i>
               </div>
@@ -444,7 +538,7 @@
                 <span>Whatsapp</span>
               </a>
             </div>
-            <div class="button">
+            <div class="button-medsos">
               <div class="icon">
                 <i class="fab fa-instagram"></i>
               </div>
@@ -452,7 +546,7 @@
                 <span>Instagram</span>
               </a>
             </div>
-            <div class="button">
+            <div class="button-medsos">
               <div class="icon">
                 <i class="fab fa-google"></i>
               </div>
@@ -460,7 +554,7 @@
                 <span>Google</span>
               </a>
             </div>
-            <div class="button">
+            <div class="button-medsos">
               <div class="icon">
                 <i class="fab fa-youtube"></i>
               </div>
@@ -471,27 +565,39 @@
           </div>
         </div>
       </div>
-      {{-- Contact end --}} {{-- Find Us --}} 
-      <div style="background-image: url('./assets/maps/maps.png');" class="container-fluid"
-      id="find" >
+      <!-- Find Us  -->
+      <div
+        style="background-image: url('./assets/maps/maps.png')"
+        class="container-fluid"
+        id="find"
+      ></div>
       <div class="container"></div>
+      <!-- Find Us end -->
     </div>
-    {{-- Find Us end --}}
-    {{-- Footer --}}
+    <!-- Contact end -->
+
+    <!-- Footer -->
     <div class="container-fluid" id="footer">
       <div class="container">
         <h1>studio location</h1>
-        <h2>Jl. Dewi Sri No.4, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361</h2>
-        <img src="./assets/logo/Rectangle 57.png" alt="">
+        <h2>
+          Jl. Dewi Sri No.4, Legian, Kec. Kuta, Kabupaten Badung, Bali 80361
+        </h2>
+        <img src="./assets/logo/Rectangle 57.png" alt="" />
       </div>
     </div>
     <footer>© 2023 ThreeFalse. All Right Reserved.</footer>
-    {{-- Footer end --}}
+    <!-- Footer end --}} -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
-    <script src="./assets/js/script.js">
-    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My JS -->
+    <script src="./assets/js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="./assets/js/swiper-script.js"></script>
   </body>
 </html>
