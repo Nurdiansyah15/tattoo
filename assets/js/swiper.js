@@ -1,5 +1,4 @@
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
   centerSlide: "true",
   fade: "true",
   grabCursor: "true",
@@ -12,14 +11,20 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
+    // when window width is >= 0 hp
     0: {
       slidesPerView: 1,
+      spaceBetween: 20,
     },
-    520: {
+    // when window width is >= 768 tablet
+    768: {
       slidesPerView: 3,
+      spaceBetween: 40,
     },
-    950: {
+    // when window width is >= 992 dekstop
+    992: {
       slidesPerView: 4,
+      spaceBetween: 30,
     },
   },
 });
